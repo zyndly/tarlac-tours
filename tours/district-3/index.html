@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Browser -->
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- SEO -->
+	<meta name="robots" content="index, follow">
+	<meta name="author" content="Zyndly Kent Baja" />
+	<meta name="copyright" content="Zyndly Kent Baja" />
+	<meta name="description" content="Tarlac 3rd District | Tarlac Tours" />
+	<meta name="keywords" content="Tarlac 3rd,Tarlac Tourist,Tours"/>
+
+    <!-- Style -->
+    <link href="/dist/output.css" rel="stylesheet">
+
+
+    <title> District 3 | Tarlac Tours</title>
+</head>
+
+<!-- NAV  REGION-->
+<nav class="bg-black border-b-2 border-lime-400 shadow-lg">
+    <div class="max-w-6xl mx-auto px-4">
+        <div class="flex justify-between">
+            <div class="flex space-x-7">
+                <div>
+                    <!-- Logo -->
+                    <a href="#" class="flex items-center py-4 px-2 ">
+                        <img src="https://seeabletarlac.vercel.app/images/logo.png" alt="Logo" class="h-8 w-8 mr-2 shadow-lg shadow-lime-400">
+                        <span class="font-semibold text-white text-lg hover:text-lime-600 ">Tarlac Tours</span>
+                    </a>
+                </div>
+                
+                <!--insert primary navbar items if ever -->
+                <div class="hidden md:flex items-center space-x-1">
+
+                </div>
+            </div>
+
+            <!-- secondary navbar items -->
+            <div class="hidden md:flex items-center space-x-3 font-bold">
+                <a href="/index.html" class="py-4 px-2 text-white font-semibold hover:text-lime-500 transition duration-300 ">Home</a>
+                <a href="/tours/district-1/index.html" class="py-4 px-2 text-white font-semibold hover:text-lime-500 transition duration-300">District 1</a>
+                <a href="/tours/district-2/index.html" class="py-4 px-2 text-white font-semibold hover:text-lime-500 transition duration-300">District 2</a>
+                <a href="/tours/district-3/index.html" class="py-4 px-2 text-lime-600 border-b-4 border-lime-400">District 3</a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                <svg class=" w-6 h-6 text-white hover:text-lime-500 "
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                    <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+            </div>
+        </div>
+    </div>
+    <!-- mobile menu -->
+    <div class="hidden mobile-menu">
+        <ul class="">
+            <li class="active"><a href="index.html" class="block text-sm px-2 py-4 text-white hover:bg-green-500 transition duration-300 font-semibold">Home</a></li>
+            <li><a href="/tours/district-1/index.html" class="block text-sm px-2 py-4 text-white hover:bg-green-500 transition duration-300 font-semibold">District 1</a></li>
+            <li><a href="/tours/district-2/index.html" class="block text-sm px-2 py-4 text-white hover:bg-green-500 transition duration-300 font-semibold">District 2</a></li>
+            <li><a href="/tours/district-3/index.html" class="block text-sm px-2 py-4 text-white bg-green-500 font-semibold">District 3</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const btn = document.querySelector("button.mobile-menu-button");
+        const menu = document.querySelector(".mobile-menu");
+
+        btn.addEventListener("click", () => {
+            menu.classList.toggle("hidden");
+        });
+    </script>
+</nav>
+<!-- END REGION -->
+
+<body class="bg-black h-full">
+    <!-- Container Div -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        
+        <h1 class="text-3xl md:text-6xl font-bold text-center text-lime-600">
+            Tarlac 3rd District
+        </h1>
+        
+        <!--District Container -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+            <h2 class="text-lime-600 mt-10">
+
+            </h2>
+            <div class="flex flex-row items-center w-full lg:px-8 lg:py-3 py-2">
+                <a class="cursor-pointer px-3 py-1 mx-2 hover:bg-lime-800 text-white rounded-full" href="/tours/district-3/bamban/index.html">Bamban</a>
+                <a class="cursor-pointer px-3 py-1 mx-2 hover:bg-lime-800 text-white rounded-full" href="/tours/district-3/capaz/index.html">Capaz</a>
+                <a class="cursor-pointer px-3 py-1 mx-2 hover:bg-lime-800 text-white rounded-full" href="/tours/district-3/concepcion/index.html">Concepcion</a>
+                <a class="cursor-pointer px-3 py-1 mx-2 hover:bg-lime-800 text-white rounded-full" href="/tours/district-3/la-paz/index.html">La Paz</a>
+            </div>
+            <!--End of Region-->
+        </div>
+
+    <!--End of Container Div -->
+    </div>
+    
+</body>
+
+<!-- Footer Region-->
+<footer>
+    <div class=" bg-black ">
+        <!-- border-->
+        <div class=" layout border-t-2 border-lime-500"> </div>
+
+        <div class="max-w-2xl mx-auto text-white py-10">
+            <div class="text-center">
+                <h3 class="text-3xl mb-3">See the beauty of Tarlac, Philippines </h3>
+
+                <div class="flex justify-center my-10  hover:border-lime-500">
+                    <div class="flex items-center border hover:border-lime-500 w-auto rounded-lg px-4 py-2 mx-2">
+                        <img src="https://seeabletarlac.vercel.app/images/logo.png" class="w-7 md:w-8">
+                        <div class="text-left ml-3">
+                            <a href="https://seeabletarlac.vercel.app/" class='text-gray-200 hover:text-lime-500'>View our website </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
+                <p class="order-2 md:order-1 mt-8 md:mt-0"> &copy; Tarlac Tours | Seeable Tarlac, 2022. </p>
+                <div class="order-1 md:order-2">
+                    <a href="https://seeabletarlac.vercel.app/about" class="px-2 hover:text-lime-500">About us</a>
+                    <a href="https://seeabletarlac.vercel.app/about/privacy" class="px-2 hover:text-lime-500">Privacy Policy</a>
+                    <a href="https://seeabletarlac.vercel.app/contact" class="px-2 hover:text-lime-500">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Region-->
+</html>
